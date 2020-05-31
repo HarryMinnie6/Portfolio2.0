@@ -1,0 +1,302 @@
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    filter: blur(1px);
+}
+.shape1{
+    /* border-radius: 50%; */
+    width: 10px;
+    height: 10px;
+    background-color: rgb(151, 151, 151);
+}
+.shape1{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(114, 114, 114);
+}
+.shape2{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(206, 206, 206);
+}
+.shape3{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(151, 151, 151);
+}
+.shape4{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(151, 151, 151);
+}
+.shape5{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(151, 151, 151);
+}
+.shape6{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(151, 151, 151);
+}
+.shape7{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color:  rgb(151, 151, 151);
+}
+.shape8{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape9{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape10{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape11{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape12{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape13{
+    /* border-radius: 50%; */
+    width: 15px;
+    height: 15px;
+    background-color: rgb(70, 80, 55);
+}
+.shape14{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape15{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape16{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape17{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape18{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape19{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape20{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.shape21{
+    /* border-radius: 50%; */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 80, 55);
+}
+.background div{
+    position: absolute;
+    display: block;
+}
+.background div:nth-child(1){
+    left: 5%;
+    animation: animate 12s linear infinite;
+    animation-delay: -7s;
+}
+.background div:nth-child(2){
+    left: 10%;
+    animation: animate 16s linear infinite;
+    animation-delay: -5s;
+}
+.background div:nth-child(3){
+    left: 15%;
+    animation: animate 18s linear infinite;
+    animation-delay: -3s;
+}
+.background div:nth-child(4){
+    left: 20%;
+    animation: animate 14s linear infinite;
+    animation-delay: -1s;
+}
+.background div:nth-child(5){
+    left: 25%;
+    animation: animate 20s linear infinite;
+    animation-delay: -4s;
+}
+.background div:nth-child(6){
+    left: 30%;
+    animation: animate 15s linear infinite;
+    animation-delay: -2s;
+}
+.background div:nth-child(7){
+    left: 35%;
+    animation: animate 20s linear infinite;
+    animation-delay: -7s;
+}
+.background div:nth-child(8){
+    left: 40%;
+    animation: animate 18s linear infinite;
+    animation-delay: -5s;
+}
+.background div:nth-child(9){
+    left: 45%;
+    animation: animate 16s linear infinite;
+    animation-delay: -3s;
+}
+.background div:nth-child(10){
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -1s;
+}
+.background div:nth-child(11){
+    left: 55%;
+    animation: animate 18s linear infinite;
+    animation-delay: -2s;
+    
+}
+.background div:nth-child(12){
+    left: 60%;
+    animation: animate 16s linear infinite;
+    animation-delay: -7s;
+}
+.background div:nth-child(13){
+    left: 65%;
+    animation: animate 13s linear infinite;
+    animation-delay: -5s;
+}
+.background div:nth-child(14){
+    left: 75%;
+    animation: animate 12s linear infinite;
+    animation-delay: -6s;
+}
+.background div:nth-child(15){
+    left: 75%;
+    animation: animate 21s linear infinite;
+    animation-delay: -7s;
+}
+.background div:nth-child(16){
+    left: 80%;
+    animation: animate 18s linear infinite;
+    animation-delay: -4s;
+}
+.background div:nth-child(17){
+    left: 85%;
+    animation: animate 16s linear infinite;
+    animation-delay: -2s;
+}
+.background div:nth-child(18){
+    left: 90%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+.background div:nth-child(19){
+    left: 95%;
+    animation: animate 19s linear infinite;
+    animation-delay: -6s;
+}
+.background div:nth-child(20){
+    left: 99%;
+    animation: animate 18s linear infinite;
+    animation-delay: -7s;
+}
+.background div:nth-child(21){
+    left: 0%;
+    animation: animate 17s linear infinite;
+    animation-delay: -5s;
+}
+@keyframes animate {
+    0%{
+        top: -10%;
+        opacity: 0;
+        transform: translateX(5px) rotate(0deg);
+    }
+    10%{
+       
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-10px);
+    }
+    40%{
+        transform: translateX(10px) ;
+    }
+    60%{
+        transform: translateX(-10px) ;
+    }
+    80%{
+        transform: translateX(10px);
+    }
+    100%{
+        top: 110%;
+        transform: translateX(-10px) ;
+    }
+}
+
+.part-2{
+    transform:  rotateX(180deg);
+    filter: blur(2px);
+}
+.part-3{
+    transform: rotateY(100deg);
+    filter: blur(4px);
+}
+.s4{
+    width: 3px;
+    height: 3px;
+    background-color: green;
+}
+.part-4{
+    transform: rotateX(50deg);
+    filter: blur(2px);
+}
+.s3{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+}
