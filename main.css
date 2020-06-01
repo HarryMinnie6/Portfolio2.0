@@ -62,9 +62,7 @@ body{
     border-radius: 4px;
     background: rgb(64, 64, 75);
 }
-
 @media (max-width: 765px) {
-   
     .navigation-bar {    
         padding-right: 20px;
     }
@@ -184,12 +182,99 @@ hr{
 }
 
 .skills-section{
-    
+    display: flex;
+    flex-direction: column;
 }
+.h2-skills{
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.description-div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 25%;
+    align-items: center; 
+    margin: 5px;
+    box-shadow: 2px 5px 10px rgb(228, 228, 228);
+}
+.design-description{
+   height: 500px;
+   background-color: rgb(243, 243, 243);
+   border: 1px solid rgb(228, 228, 228);
+}
+.front-end-description{
+    height: 600px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(228, 228, 228);
+ }
+.learning-description{
+    height: 500px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(228, 228, 228);
+}
+.description-div i{
+    font-size: 3rem;
+    padding: 40px ;
+}
+.description-div h3{
+    padding: 10px;
+    font-size: 1.6rem;
+}
+.description-div p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+.description-div h4{
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.p-description{
+    padding: 10px 50px;
+}
+.p-languages{
+    align-self: center;
+}
+.dev-tools-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dev-tools-wrapper h5{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    padding: 20px 0px 10px 0;
+}
+.projects-section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(231, 231, 231);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.projects-holder{
+    background-color: rebeccapurple;
+}
+
 footer{
     display: flex;
     height: 60px;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 223, 240);
 }
 .p1-footer{
     font-size: 1rem ;
@@ -197,6 +282,96 @@ footer{
     display: flex;
     align-items: center;
    }
+
+@media (max-width: 1474px){
+    .skills{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .description-div{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 30%;
+        align-items: center; 
+        margin: 5px;
+    }
+    .design-description{
+       height: 400px;
+    }
+    .front-end-description{
+        height: 550px;
+     }
+    .learning-description{
+        height: 400px;
+    }
+    .description-div i{
+        font-size: 2rem;
+        padding: 20px 0 20px 0 ;
+    }
+    .description-div h3{
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+    .description-div p{
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+    .description-div h4{
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
+    .p-description{
+        padding: 10px 40px;
+    }
+    .p-languages{
+        align-self: center;
+    }
+    .dev-tools-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dev-tools-wrapper h5{
+        font-size: 1.3rem;
+        text-decoration: underline;
+        padding: 20px 0px 10px 0;
+    }
+}
+
+@media (max-width: 1070px){
+    .description-div{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 30%;
+        align-items: center; 
+        margin: 4px;
+    }
+    .design-description{
+        height: 380px;
+     }
+     .front-end-description{
+         height: 500px;
+      }
+     .learning-description{
+         height: 380px;
+     }
+    .description-div i{
+        font-size: 1.8rem;
+        padding: 20px 0 20px 0 ;
+    }
+    .description-div p{
+        line-height: 1.6rem;
+        font-size: 1rem;
+    }
+    .p-description{
+        padding: 10px 25px;
+    }
+}
+
 @media (max-width: 900px){
     .landing-image{
         transform: scale(0.8);
@@ -205,12 +380,68 @@ footer{
     }
     .about-section div{
         padding: 50px 0px 30px 0px;
-        width: 650px;
+        /* width: 650px; */
         font-size: 1.2rem;
         display: flex;
         justify-content: center;
     }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .description-div{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        align-items: center; 
+    }
+    .design-description{
+       height: 350px;
+    }
+    .front-end-description{
+        height: 550px;
+     }
+    .learning-description{
+        height: 400px;
+    }
+    .description-div i{
+        font-size: 2rem;
+        padding: 20px 0 20px 0 ;
+    }
+    .description-div h3{
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+    .description-div p{
+        line-height: 1.8rem;
+        font-size: 1.1rem;
+    }
+    .description-div h4{
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
+    .p-description{
+        padding: 10px 50px;
+    }
+    .p-languages{
+        align-self: center;
+    }
+    .dev-tools-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dev-tools-wrapper h5{
+        font-size: 1.3rem;
+        text-decoration: underline;
+        padding: 20px 0px 10px 0;
+    }
 }
+
 @media (max-width: 720px){
     .about-section div{
         padding: 30px 0px 30px 0px;
@@ -220,6 +451,7 @@ footer{
         justify-content: center;
     }
 }
+
 @media (max-width: 635px){
     .landing-image{
         transform: scale(0.6);
@@ -234,6 +466,7 @@ footer{
         justify-content: center;
     }
 }
+
 @media (max-width: 495px){
     .landing-image{
         transform: scale(0.5);
@@ -255,6 +488,58 @@ footer{
     hr{
         width: 20%;
         align-self: center;
+    }
+    .description-div{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        align-items: center; 
+    }
+    .design-description{
+       height: 350px;
+    }
+    .front-end-description{
+        height: 550px;
+     }
+    .learning-description{
+        height: 400px;
+    }
+    .description-div i{
+        font-size: 1.8rem;
+        padding: 15px 0 15px 0 ;
+    }
+    .description-div h3{
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+    .description-div p{
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+    .description-div h4{
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
+    .p-description{
+        padding: 10px 50px;
+    }
+    .p-languages{
+        align-self: center;
+    }
+    .dev-tools-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dev-tools-wrapper h5{
+        font-size: 1.3rem;
+        text-decoration: underline;
+        padding: 20px 0px 5px 0;
+    }
+    footer{
+        font-size: 0.8rem;
+        height: 50px;
     }
 }
 @media (max-width: 420px){
@@ -284,7 +569,6 @@ footer{
     .about-section div{
         width:99%;
     }
-
 }
 @media (max-width: 374px){
     .landing-image{
@@ -307,7 +591,13 @@ footer{
     .p2{
         font-family: 'Roboto', cursive;
         font-size: 1.6rem;
-        margin: 0;
-        padding: 0;
     }
+    .description-div{
+        width: 95%;
+    }
+    .p-description{
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
 }
