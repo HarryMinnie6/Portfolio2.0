@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai+2|Baloo+Tamma+2|Bellota+Text|Oxanium&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=News+Cycle&family=Roboto:ital,wght@1,300&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -10,14 +13,15 @@ body{
 .navigation-bar {
     display: flex;
     position: fixed;
-    top: 0;
     width: 100%;
-    height: 70px;
     justify-content: center;
     align-items: flex;
     background-color: rgb(203, 223, 240);
     color: rgb(121, 121, 141); ;
     z-index: 1;
+    padding-right: 40px;
+    box-sizing: border-box;
+    top: 0;
     box-sizing: border-box;
     transition: 0.3s ease-in-out;
     opacity: 0.7;
@@ -26,7 +30,6 @@ body{
     margin: 0;
     padding: 0;
     display: flex;  
-    transition: ease 0.3s
 }
 .nav-links li {
     list-style: none;  
@@ -39,7 +42,7 @@ body{
      font-size: 1.8rem;     
 }
 .nav-links a:hover {
-    color: rgb(84, 84, 99); ;
+    color: rgb(64, 64, 75); ;
 }
   /* hamburger-menu start*/
 .hamburger-button {
@@ -57,7 +60,7 @@ body{
     width: 100%;
     background-color: rgb(230, 230, 230);;
     border-radius: 4px;
-    background: rgb(38, 165, 187);
+    background: rgb(64, 64, 75);
 }
 
 @media (max-width: 765px) {
@@ -74,7 +77,6 @@ body{
         height: 28px;     
     }
 }
-
 @media (max-width: 630px) {
     .hamburger-button { 
         display: flex;    
@@ -84,7 +86,7 @@ body{
         right: 1.5rem;  
     }
     .nav-links  {     
-        display: flex;
+        display: none;
         width: 100%;
     }
     .navigation-bar {
@@ -120,66 +122,192 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgb(231, 231, 231);
-    /* background: linear-gradient(rgba(158, 158, 158, 0.9),rgb(255, 255, 255)), url(images/image2.jpg); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;  
 }
 .landing-section div{
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
+    align-self: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    height: 200px;
 }
 .p1{
     font-family: 'Roboto', cursive;
     font-size: 2rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 20%;
+    margin-bottom: 1rem;
+    padding: 0;
 }
 .name {
     font-family: 'Indie Flower', cursive;
     font-size: 3rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 25%;
-    /* border: 1px solid black; */
+    margin-bottom: 1rem;
+    padding: 0;
 }
 .p2{
     font-family: 'Roboto', cursive;
     font-size: 2rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 
-    37%;
-}.landing-image{
-    position: absolute;
-    bottom:3px;
-
+    margin: 0;
+    padding: 0;
 }
-
-
-
+.landing-image{
+    position: absolute;
+    bottom:0px;
+}
 
 .about-section{
-    height: 600px;
-    background-color: gray;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section div{
+    padding: 50px 50px 30px 50px;
+    width: 750px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.p-about{
+    padding: 20px;
+    line-height: 2rem;
+}
+hr{
+    border: 1px solid rgb(236, 236, 236);
+    width: 20%;
+    align-self: center;
 }
 
+.skills-section{
+    
+}
 footer{
     display: flex;
     height: 60px;
     justify-content: center;
-    background-color: rgb(203, 223, 240);
 }
 .p1-footer{
-    color: rgb(121, 121, 141); ;
     font-size: 1rem ;
     padding: 0 20px;
     display: flex;
     align-items: center;
    }
+@media (max-width: 900px){
+    .landing-image{
+        transform: scale(0.8);
+        position: absolute;
+        bottom: -5px;
+    }
+    .about-section div{
+        padding: 50px 0px 30px 0px;
+        width: 650px;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 720px){
+    .about-section div{
+        padding: 30px 0px 30px 0px;
+        width: 600px;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 635px){
+    .landing-image{
+        transform: scale(0.6);
+        position: absolute;
+        bottom: -40px;
+    }
+    .about-section div{
+        padding: 20px 0px 20px 0px;
+        width: 500px;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 495px){
+    .landing-image{
+        transform: scale(0.5);
+        position: absolute;
+        bottom: -40px;
+    }
+    .about-section div{
+        padding: 15px 0px 15px 0px;
+        width: 420px;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+    }
+    .p-about{
+        color: black;
+        padding: 20px;
+        line-height: 1.8rem;
+    }
+    hr{
+        width: 20%;
+        align-self: center;
+    }
+}
+@media (max-width: 420px){
+    .landing-image{
+        transform: scale(0.4);
+        position: absolute;
+        bottom: -60px;
+    }
+    .p1{
+        font-family: 'Roboto', cursive;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .name {
+        font-family: 'Indie Flower', cursive;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .p2{
+        font-family: 'Roboto', cursive;
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    .about-section div{
+        width:99%;
+    }
+
+}
+@media (max-width: 374px){
+    .landing-image{
+        transform: scale(0.4);
+        position: absolute;
+        bottom: -60px;
+    }
+    .p1{
+        font-family: 'Roboto', cursive;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .name {
+        font-family: 'Indie Flower', cursive;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .p2{
+        font-family: 'Roboto', cursive;
+        font-size: 1.6rem;
+        margin: 0;
+        padding: 0;
+    }
+}

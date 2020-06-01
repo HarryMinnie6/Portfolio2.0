@@ -7,6 +7,8 @@ hamburgerButton.addEventListener('click' , function (e) {
     navbarLinks.classList.toggle('active')
 })
 
+
+//Navigation bar disappears and re-appears on scroll//
 let navigationBar = document.querySelector('.navigation-bar')
 let lastScrollTop = 0
 
