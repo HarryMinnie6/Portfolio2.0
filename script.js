@@ -21,3 +21,45 @@ window.addEventListener("scroll", function(){
     }
     lastScrollTop = scrollTop
 })
+
+
+// Form submission
+const formSubMitBtn = document.querySelector('.form-control-submit-btn')
+document.addEventListener('DOMContentLoaded',function() {
+    formSubMitBtn.addEventListener('click', function(e) {
+        
+        console.log("sending");
+        let email = document.querySelector('#email').value
+        let name = document.querySelector('#email').value
+        let message = document.querySelector('#email').value
+        let status = document.querySelector('.status')
+        let nameStatus = document.querySelector('.name-status')
+        let emailStatus = document.querySelector('.email-status')
+        let messageStatus = document.querySelector('.message-status')
+
+        status.innerText=""
+        
+        if(name.length < 2){
+            e.preventDefault()          
+            nameStatus.append('Please enter your full name');
+            status.appendChild(nameStatus)
+        }
+        if(email.length > 5 && email.includes('@') && email.includes('.')) {
+                  
+        } else {
+            e.preventDefault()
+            emailStatus.append('Please enter a valid email address');
+            status.appendChild(emailStatus) 
+            
+        }
+        if(message.length <= 2){
+            e.preventDefault()
+            messageStatus.append('Please enter a message');
+            status.appendChild(messageStatus)
+            
+        }
+        
+    
+    })
+
+})
