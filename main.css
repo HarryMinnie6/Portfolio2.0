@@ -531,6 +531,13 @@ footer{
     cursor: pointer;
     color: rgb(143, 157, 170);
 }
+.cv{
+    
+    align-self: center;
+    text-align: center;
+    width: 150px;
+    margin: 20px;  
+}
 
 @media (max-width: 1474px){
     .skills{
