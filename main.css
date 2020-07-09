@@ -539,6 +539,10 @@ footer{
     width: 150px;
     margin: 20px;  
 }
+.wp_misc-header{
+    text-decoration: underline;
+
+}
 
 @media (max-width: 1474px){
     .skills{
