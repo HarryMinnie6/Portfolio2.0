@@ -384,10 +384,11 @@ form{
     height: 350px;
     margin-bottom: 10px;
     background-color: rgb(243, 243, 243);
-    border: 1px solid rgb(228, 228, 228);
     line-height: 2rem;
     border-radius: 10px;
-
+}
+.project:hover{
+    box-shadow: 0 0 3px #afafaf;
 }
 .project-img{
     width: 100%;
