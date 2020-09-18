@@ -1,229 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- <link rel="stylesheet" href="background.css"> -->
-    <script src="https://kit.fontawesome.com/6f89e29cb7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6f89e29cb7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Harry Minnie</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="site-wrapper">
-        <nav class="navigation-bar">   
-            <!-- <div class="logo">dfdfddf </div> -->
-            <!-- Hamburger Menu start-->
-             <a href="javascript:void(0)" class="hamburger-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a> 
-            <!-- Hamburger Menu end-->
-                 <div class="nav-links"> 
-                     <ul>
-                        <li> <a href="#about"> About</a></li>
-                        <li> <a href="#projects"> Projects</a></li>
-                        <li> <a href="#contact"> Contact</a></li>
-                    </ul>  
-                </div>   
-        </nav> 
+      <nav class="navigation-bar">
+        <!-- <div class="logo">dfdfddf </div> -->
+        <!-- Hamburger Menu start-->
+        <a href="javascript:void(0)" class="hamburger-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <!-- Hamburger Menu end-->
+        <div class="nav-links">
+          <ul>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#contact"> Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        
+      <section class="landing-section" id="home">
+        <div>
+          <p class="p1" data-aos="fade-down-right" data-aos-duration="1500">
+            I'm
+          </p>
+          <h3 class="name" data-aos="flip-right" data-aos-duration="1000">
+            Harry Minnie.
+          </h3>
+          <p class="p2" data-aos="fade-up-left" data-aos-duration="1500">
+            A front-end developer
+          </p>
+        </div>
+        <img class="landing-image" src="images/image3-cutout.png" alt="" />
+      </section>
 
+      <section class="about-section" id="about">
+        <h2 class="h2-about">About Me</h2>
 
-        <section class="landing-section" id="home">
-            <div>
-            <p class="p1" data-aos="fade-down-right" data-aos-duration="1500">I'm</p>
-            <h3 class="name" data-aos="flip-right" data-aos-duration="1000">Harry Minnie.</h3>
-            <p class="p2" data-aos="fade-up-left" data-aos-duration="1500">A web developer</p>
-            </div>
-            <img class="landing-image" src="images/image3-cutout.png" alt="" >
-        </section>
+        <div>
+          <p class="p-about" data-aos="fade-down">
+            I'm a self-taught web developer / designer based in Cape Town, South
+            Africa. I have a passion for web design and love to create for web
+            and mobile devices. I'm quietly confident, naturally curious, and
+            perpetually working on improving my knowledge one design problem at
+            a time.
+          </p>
+        </div>
+      </section>
+      <hr />
 
-        <section class="about-section" id="about">
-            <h2 class="h2-about">About Me</h2>
-
-            <div>
-            <p class="p-about" data-aos="fade-down">
-                I'm a self-taught web developer / designer based in Cape Town, South Africa. 
-                I have a passion for web design and love to create for web and mobile devices.
-                I'm quietly confident, naturally curious, 
-                and perpetually working on improving my knowledge one design problem at a time.
+      <section class="skills-section">
+        <h2 class="h2-skills">What I can do</h2>
+        <div class="skills">
+          <div
+            class="design-description description-div"
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Design</h3>
+            <p class="p-description">
+              A website should be designed for the people who will use it, so
+              that's exactly what I do. I value simple content structure. My
+              goals are to focus on typography, clean design patterns, and
+              thoughtful interactions.
             </p>
+          </div>
+
+          <div
+            class="front-end-description description-div"
+            data-aos="zoom-in-up"
+            data-aos-delay="100"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <i class="fas fa-laptop-code"></i>
+            <h3>Front End</h3>
+            <p class="p-description">
+              I like coding things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+            <h4>Languages I use:</h4>
+            <p class="p-languages">HTML, CSS, JavaScript/jQuery</p>
+
+            <div class="dev-tools-wrapper">
+              <h5>Dev Tools:</h5>
+              <p>Visual Studio Code</p>
+              <p>Terminal</p>
+              <p>Github</p>
+              <h5>FrameWorks:</h5>
+              <p>React</p>
             </div>
-        </section>
-        <hr>
+          </div>
 
-        <section class="skills-section">
-            <h2 class="h2-skills"> What I can do</h2>
-            <div class="skills">
-
-                <div class="design-description description-div" data-aos="zoom-in-up" data-aos-delay="200" data-aos-anchor-placement="top-bottom">
-                    <i class="fas fa-pencil-alt"></i>
-                    <h3>Design</h3>
-                    <p class="p-description" > A website should be designed for the people who will use it, 
-                        so that's exactly what I do.
-                        I value simple content structure. My goals are to focus on typography,
-                        clean design patterns, and thoughtful interactions.</p>                
-                </div>
-
-                <div class="front-end-description description-div" data-aos="zoom-in-up" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Front End</h3>
-                    <p class="p-description">I like coding things from scratch, 
-                        and enjoy bringing ideas to life in the browser.</p>
-                        <h4>Languages I use:</h4>
-                        <p class="p-languages">HTML, CSS, JavaScript/jQuery</p>
-                        
-                    <div class="dev-tools-wrapper">
-                        <h5>Dev Tools:</h5>
-                        <p>Visual Studio Code</p>
-                        <p>Atom</p>
-                        <p>Codepen</p>
-                        <p>Github</p>
-                        <p>Terminal</p>
-                    </div>
-                </div>
-                
-                <div class="learning-description description-div" data-aos="zoom-in-up" data-aos-delay="200" data-aos-anchor-placement="top-bottom">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>Currently learning</h3>
-                    <p class="p-description"> I am currently increasing my knowledge within the following areas:</p>
-                    <div class="dev-tools-wrapper">
-                        <p>React</p>
-                        <p>WordPress (Proficient)</p>
-                        <p>PHP (Proficient) </p>
-                        <p>node.js </p>
-                        <p>THREE.js </p>
-                    </div>
-                </div>
-                   
+          <div
+            class="learning-description description-div"
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Currently learning</h3>
+            <p class="p-description">
+              I am currently increasing my knowledge within the following areas:
+            </p>
+            <div class="dev-tools-wrapper">
+              <p>React-Native</p>
+              <p>node.js</p>
+              <p>PHP (Proficient)</p>
+              <p>WordPress (Proficient)</p>
             </div>
-        </section>
-        
-        <section class="projects-section"id="projects">
-            <h2 class="h2-projects-section">Projects</h2>
-            <!-- <p class="p-projects-section">Here is a selection of a few projects I have created</p> -->
-            <div class="projects-holder">
+          </div>
+        </div>
+      </section>
 
-                <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
-                    <div class="backgroundImage"><img class="project-img"src="images/project-images/sunset.png" alt="SSSB screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                    <h3 class="project-header">Concept site for Sunset Skimboards</h3>
-                    <p class="project-description">Concept site for Sunset skim-boards.  
-                        There is a link to the shop where users can view products and add them to the cart. 
-                        When items are added to the cart they are stored in local storage. 
-                        Items in the cart can have the quantities increased/decreased and can also be removed from the cart.</p>
-                    <a href=" https://harryminnie6.github.io/Sunset-Skim-boards/" class="project-link">Demo</a>
-                    <a href="https://github.com/HarryMinnie6/Sunset-Skim-boards" class="github-link">Repo</a>
-                </div>
-
-                <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="backgroundImage2"><img class="project-img"src="images/project-images/rps.png" alt="RPS screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                    <h3 class="project-header2">Rock Paper Scissors</h3>
-                    <p class="project-description2">A Rock Paper Scissors game built with HTML, CSS and vanilla JavaScript. 
-                        The user plays against the computer, 
-                        where the scores are updated after every round as well as if the user has won, lost or a draw is obtained.</p>
-                    <a href="https://harryminnie6.github.io/Rock-Paper-Scissors/" class="project-link2">Demo</a>
-                    <a href="https://github.com/HarryMinnie6/Rock-Paper-Scissors" class="github-link2">Repo</a>
-                </div>
-
-                <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="backgroundImage"><img class="project-img"src="images/project-images/weather.png" alt="Weather-App screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                    <h3 class="project-header">Weather App</h3>
-                    <p class="project-description">A Weather app that displays the user's current location and weather conditions.
-                        It also has an extended 4 day forecast. 
-                        The app gets info from a third party API and displays the relevant information to the user.
-                        The Weather-app was made with HTML, CSS, JavaScript.
-                    </p>
-                    <a href="Curriculum-vitae-of-Harry-Norman-Minnie.pdf" class="project-link">Demo</a>
-                    <a href="https://github.com/HarryMinnie6/Weather-app" class="github-link">Repo</a>
-                </div>
-
+      <section class="projects-section" id="projects">
+        <h2 class="h2-projects-section">Projects</h2>
+        <!-- <p class="p-projects-section">Here is a selection of a few projects I have created</p> -->
+        <div class="projects-holder">
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage">
+              <img
+                class="project-img"
+                src="images/project-images/fakealot.png"
+                alt="SSSB screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
             </div>
-                <!-- <h2 class="h2-projects-section">Some of my projects</h2> -->
-                <p class="p-projects-section wp_misc-header" data-aos="flip-left" >WordPress projects</p>
-
-                <div class="projects-holder">
-                    <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                        <div class="backgroundImage2"><img class="project-img"src="images/project-images/knowledge-uni.png" alt="K.U screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                        <h3 class="project-header2">Knowledge-University</h3>
-                        <p class=" project-description2 ">This is a custom theme for WordPress coded by myself using PHP, CSS, and JavaScript.   </p>
-                        <a href="https://knowledge-university.cloudaccess.host/" class="project-link2">Demo</a>  
-                    </div>
-                </div>
-
-                <p class="p-projects-section wp_misc-header" data-aos="flip-right">Miscellaneous projects</p>
-            <div class="projects-holder">
-
-                <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="backgroundImage"><img class="project-img"src="images/project-images/todo.png" alt="Todo-List screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                    <h3 class="project-header">Todo-list</h3>
-                    <p class="project-description">A Todo-list that stores items in the local storage. 
-                        Items can be marked as complete and deleted, once they are added to the Todo-List. 
-                        The Todo-list was made with HTML, CSS and JavaScript.</p>
-                    <a href="https://harryminnie6.github.io/Todo-List/" class="project-link">Demo</a>
-                    <a href="https://github.com/HarryMinnie6/Todo-List" class="github-link">Repo</a>
-                </div>
-                <div class="project" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                    <div class="backgroundImage2"><img class="project-img"src="images/project-images/calculator.png" alt="Calculator screen-shot" data-tilt data-tilt-max="12" data-tilt-speed="500" data-tilt-perspective="10000"></div>
-                    <h3 class="project-header2">Calculator</h3>
-                    <p class=" project-description2 ">A basic calculator made with HTML, CSS and JavaScript.</p>
-                    <a href="#" class="project-link2">Demo</a>
-                    <a href="#" class="github-link2">Repo</a>
-                </div>
-               
-      
-              
+            <h3 class="project-header">"Fakealot" - Takealot clone</h3>
+            <p class="project-description">
+              A clone of the leading ecommerce retailer in South Africa. The
+              user is able to create and account, login, add items to their
+              cart, remove items from their cart as well as log out.
+              <strong> <i>Made using React, deployed to firebase. </i> </strong>
+            </p>
+            <a href="https://takealot-clone.web.app/" class="project-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/takealot-clone"
+              class="github-link"
+              >Repo</a
+            >
+          </div>
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage">
+              <img
+                class="project-img"
+                src="images/project-images/netflix.PNG"
+                alt="SSSB screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
             </div>
-        </section>
+            <h3 class="project-header">Netflix-clone</h3>
+            <p class="project-description">
+              A clone of the online streaming service Netflix. The site data is
+              pulled from a third party API and displays the relevant
+              information to the user. The user is able to scroll through the
+              genres and view the advertisement for the selected series.
+              <strong> <i>Made using React, deployed to firebase. </i> </strong>
+            </p>
+            <a href="https://netflix-clone-3d128.web.app/" class="project-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/netflix-clone"
+              class="github-link"
+              >Repo</a
+            >
+          </div>
 
-        <section class="contact-section" id="contact">
-            <h1 class="contact-header">Contact Me</h1>
-            <h3 class="work-status">I am currently available to work.</h3>
-            <p>If you have a project that you want to get started, 
-                think you need my help with something or just fancy saying hi, then get in touch.</p>
-            <div class="contact-form">
-                <form action="https://formspree.io/xqkdrkro" method="POST">
-                    <input type="text" class="form-control" name="name" placeholder="Name" id="name" required>
-                    <br>
-                    <input type="text"  class="form-control" name="E-mail" placeholder="E-mail" id="email" required>
-                    <br>
-                    <textarea name="message" class="form-control" id="textarea-input" placeholder="Message" id="message"required></textarea>
-                    <br>
-                    <div class="status">
-                        <div class="name-status"></div>
-                        <div class="email-status"></div>
-                        <div class="message-status"></div>
-                    </div>
-                    <input type="submit" class="form-control-submit-btn" value="Send Message">
-                </form>
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage">
+              <img
+                class="project-img"
+                src="images/project-images/sunset.png"
+                alt="SSSB screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
             </div>
-            
-            <div class="social-media-tags">
-                <a href="https://github.com/HarryMinnie6" class="github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/harry-minnie-5ab96bb4/" class="linkedIn"> <i class="fab fa-linkedin"></i> </a>
-                <!-- <a href="#" class="instagram"> <i class="fab fa-instagram"></i> </a> -->
+            <h3 class="project-header">Concept site for Sunset Skimboards</h3>
+            <p class="project-description">
+              Concept site for Sunset skim-boards. There is a link to the shop
+              where users can view products and add them to the cart. When items
+              are added to the cart they are stored in local storage. Items in
+              the cart can have the quantities increased/decreased and can also
+              be removed from the cart.
+              <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
+            </p>
+            <a
+              href=" https://harryminnie6.github.io/Sunset-Skim-boards/"
+              class="project-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/Sunset-Skim-boards"
+              class="github-link"
+              >Repo</a
+            >
+          </div>
+
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage2">
+              <img
+                class="project-img"
+                src="images/project-images/rps.png"
+                alt="RPS screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
             </div>
-            <div class="cv">
-                <a href="Curriculum-vitae-of-Harry-Minnie.pdf">Download my CV</a>
+            <h3 class="project-header2">Rock Paper Scissors</h3>
+            <p class="project-description2">
+              A Rock Paper Scissors game built with HTML, CSS and vanilla
+              JavaScript. The user plays against the computer, where the scores
+              are updated after every round as well as if the user has won, lost
+              or a draw is obtained.
+              <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
+            </p>
+            <a
+              href="https://harryminnie6.github.io/Rock-Paper-Scissors/"
+              class="project-link2"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/Rock-Paper-Scissors"
+              class="github-link2"
+              >Repo</a
+            >
+          </div>
+
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage">
+              <img
+                class="project-img"
+                src="images/project-images/weather.png"
+                alt="Weather-App screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
             </div>
-        </section>
+            <h3 class="project-header">Weather App</h3>
+            <p class="project-description">
+              A Weather app that displays the user's current location and
+              weather conditions. It also has an extended 4 day forecast. The
+              app gets info from a third party API and displays the relevant
+              information to the user.
+              <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
+            </p>
+            <a
+              href="https://harryminnie6.github.io/Weather-app/."
+              class="project-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/Weather-app"
+              class="github-link"
+              >Repo</a
+            >
+          </div>
+        </div>
+        <!-- <h2 class="h2-projects-section">Some of my projects</h2> -->
+        <p class="p-projects-section wp_misc-header" data-aos="flip-left">
+          WordPress projects
+        </p>
 
+        <div class="projects-holder">
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage2">
+              <img
+                class="project-img"
+                src="images/project-images/knowledge-uni.png"
+                alt="K.U screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
+            </div>
+            <h3 class="project-header2">Knowledge-University</h3>
+            <p class="project-description2">
+              This is a custom theme for WordPress coded by myself using
+              <strong> <i>PHP, CSS, and JavaScript. </i></strong>
+            </p>
+            <a
+              href="https://knowledge-university.cloudaccess.host/"
+              class="project-link2"
+              >Demo</a
+            >
+          </div>
+        </div>
 
+        <p class="p-projects-section wp_misc-header" data-aos="flip-right">
+          Miscellaneous projects
+        </p>
+        <div class="projects-holder">
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage">
+              <img
+                class="project-img"
+                src="images/project-images/todo.png"
+                alt="Todo-List screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
+            </div>
+            <h3 class="project-header">Todo-list</h3>
+            <p class="project-description">
+              A Todo-list that stores items in the local storage. Items can be
+              marked as complete and deleted, once they are added to the
+              Todo-List. The Todo-list was
+              <strong> <i>made with HTML, CSS, JavaScript. </i></strong>
+            </p>
+            <a
+              href="https://harryminnie6.github.io/Todo-List/"
+              class="project-link"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/HarryMinnie6/Todo-List"
+              class="github-link"
+              >Repo</a
+            >
+          </div>
+          <div
+            class="project"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="backgroundImage2">
+              <img
+                class="project-img"
+                src="images/project-images/calculator.png"
+                alt="Calculator screen-shot"
+                data-tilt
+                data-tilt-max="12"
+                data-tilt-speed="500"
+                data-tilt-perspective="10000"
+              />
+            </div>
+            <h3 class="project-header2">Calculator</h3>
+            <p class="project-description2">
+              A basic calculator
+              <strong> <i>made with HTML, CSS, JavaScript. </i></strong>
+            </p>
+            <a href="#" class="project-link2">Demo</a>
+            <a href="#" class="github-link2">Repo</a>
+          </div>
+        </div>
+      </section>
 
-        <footer>
-            <p class="p1-footer">Harry Minnie &copy 2020</p>
-            <a href="#home" class="back-top-top"> <i class="fas fa-chevron-up "></i> </a>
-        </footer>
+      <section class="contact-section" id="contact">
+        <h1 class="contact-header">Contact Me</h1>
+        <h3 class="work-status">I am currently available to work.</h3>
+        <p>
+          If you have a project that you want to get started, think you need my
+          help with something or just fancy saying hi? Then get in touch.
+        </p>
+        <div class="contact-form">
+          <form action="https://formspree.io/xqkdrkro" method="POST">
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              placeholder="Name"
+              id="name"
+              required
+            />
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              name="E-mail"
+              placeholder="E-mail"
+              id="email"
+              required
+            />
+            <br />
+            <textarea
+              name="message"
+              class="form-control"
+              id="textarea-input"
+              placeholder="Message"
+              id="message"
+              required
+            ></textarea>
+            <br />
+            <a class="status">
+              <div class="name-status"></div>
+              <div class="email-status"></div>
+              <div class="message-status"></div>
+            </a>
+            <input
+              type="submit"
+              class="form-control-submit-btn"
+              value="Send Message"
+            />
+          </form>
+        </div>
 
+        <div class="social-media-tags">
+          <a href="https://github.com/HarryMinnie6" class="github"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/harry-minnie-5ab96bb4/"
+            class="linkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <!-- <a href="#" class="instagram"> <i class="fab fa-instagram"></i> </a> -->
+        </div>
+        <div class="cv">
+          <a href="Curriculum-vitae-of-Harry-Minnie.pdf">Download my CV</a>
+        </div>
+      </section>
+
+      <footer>
+        <p class="p1-footer">Harry Minnie &copy 2020</p>
+        <a href="#home" class="back-top-top">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </footer>
     </div>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script> AOS.init(); </script>
+    <script>
+      AOS.init();
+    </script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
-
-  
-</body>
+  </body>
 </html>
-
