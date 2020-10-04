@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="background.css"> -->
     <script
       src="https://kit.fontawesome.com/6f89e29cb7.js"
@@ -93,16 +97,18 @@
               I like coding things from scratch, and enjoy bringing ideas to
               life in the browser.
             </p>
+
             <h4>Languages I use:</h4>
             <p class="p-languages">HTML, CSS, JavaScript/jQuery</p>
+            <h5 class="frameworks">FrameWorks:</h5>
+            <p>React</p>
 
             <div class="dev-tools-wrapper">
               <h5>Dev Tools:</h5>
               <p>Visual Studio Code</p>
+              <p>Bootstrap 4</p>
               <p>Terminal</p>
               <p>Github</p>
-              <h5>FrameWorks:</h5>
-              <p>React</p>
             </div>
           </div>
 
@@ -118,8 +124,9 @@
               I am currently increasing my knowledge within the following areas:
             </p>
             <div class="dev-tools-wrapper">
-              <p>React-Native</p>
+              <p>PostgreSQL (Proficient)</p>
               <p>node.js</p>
+              <p>React-Native</p>
               <p>PHP (Proficient)</p>
               <p>WordPress (Proficient)</p>
             </div>
@@ -128,58 +135,43 @@
       </section>
 
       <section class="projects-section" id="projects">
-        <h2 class="h2-projects-section">Projects</h2>
-        <!-- <p class="p-projects-section">Here is a selection of a few projects I have created</p> -->
+        <h2>PROJECTS</h2>
         <div class="projects-holder">
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage">
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header">"Fakealot" - Takealot clone</h3>
+            </div>
+
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/fakealot.png"
-                alt="SSSB screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header">"Fakealot" - Takealot clone</h3>
             <p class="project-description">
               A clone of the leading ecommerce retailer in South Africa. The
               user is able to create and account, login, add items to their
               cart, remove items from their cart as well as log out.
               <strong> <i>Made using React, deployed to firebase. </i> </strong>
             </p>
-            <a href="https://takealot-clone.web.app/" class="project-link"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/takealot-clone"
-              class="github-link"
-              >Repo</a
-            >
+            <div class="button-links">
+              <a href="https://github.com/HarryMinnie6/takealot-clone">Repo</a>
+              <a href="https://takealot-clone.web.app/">Demo</a>
+            </div>
           </div>
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage">
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header">Netflix-clone</h3>
+            </div>
+
+            <div class="image-holder">
               <img
-                class="project-img"
-                src="images/project-images/netflix.PNG"
-                alt="SSSB screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                class="project-image"
+                src="images/project-images/netflix.png"
+                alt="image"
               />
             </div>
-            <h3 class="project-header">Netflix-clone</h3>
             <p class="project-description">
               A clone of the online streaming service Netflix. The site data is
               pulled from a third party API and displays the relevant
@@ -187,33 +179,33 @@
               genres and view the trailer for the selected series or movie.
               <strong> <i>Made using React, deployed to firebase. </i> </strong>
             </p>
-            <a href="https://netflix-clone-3d128.web.app/" class="project-link"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/netflix-clone"
-              class="github-link"
-              >Repo</a
-            >
+            <div class="button-links">
+              <a
+                href="https://github.com/HarryMinnie6/netflix-clone"
+                class="github-link buttons"
+                >Repo</a
+              >
+              <a
+                href="https://netflix-clone-3d128.web.app/"
+                class="project-link buttons"
+                >Demo</a
+              >
+            </div>
           </div>
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header project-3">
+                Concept site for Sunset Skimboards
+              </h3>
+            </div>
 
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage">
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/sunset.png"
-                alt="SSSB screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header">Concept site for Sunset Skimboards</h3>
             <p class="project-description">
               Concept site for Sunset skim-boards. There is a link to the shop
               where users can view products and add them to the cart. When items
@@ -222,71 +214,64 @@
               be removed from the cart.
               <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
             </p>
-            <a
-              href=" https://harryminnie6.github.io/Sunset-Skim-boards/"
-              class="project-link"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/Sunset-Skim-boards"
-              class="github-link"
-              >Repo</a
-            >
+            <div class="button-links">
+              <a
+                href="https://github.com/HarryMinnie6/Sunset-Skim-boards"
+                class="github-link buttons"
+                >Repo</a
+              >
+              <a
+                href=" https://harryminnie6.github.io/Sunset-Skim-boards/"
+                class="project-link buttons"
+                >Demo</a
+              >
+            </div>
           </div>
 
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage2">
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header project-3">Rock Paper Scissors</h3>
+            </div>
+
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/rps.png"
-                alt="RPS screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header2">Rock Paper Scissors</h3>
-            <p class="project-description2">
+            <p class="project-description">
               A Rock Paper Scissors game built with HTML, CSS and vanilla
               JavaScript. The user plays against the computer, where the scores
               are updated after every round as well as if the user has won, lost
               or a draw is obtained.
               <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
             </p>
-            <a
-              href="https://harryminnie6.github.io/Rock-Paper-Scissors/"
-              class="project-link2"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/Rock-Paper-Scissors"
-              class="github-link2"
-              >Repo</a
-            >
+            <div class="button-links">
+              <a
+                href="https://github.com/HarryMinnie6/Rock-Paper-Scissors"
+                class="github-link buttons"
+                >Repo</a
+              >
+              <a
+                href="https://harryminnie6.github.io/Rock-Paper-Scissors/"
+                class="project-link buttons"
+                >Demo</a
+              >
+            </div>
           </div>
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header project-3">Weather App</h3>
+            </div>
 
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage">
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/weather.png"
-                alt="Weather-App screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header">Weather App</h3>
             <p class="project-description">
               A Weather app that displays the user's current location and
               weather conditions. It also has an extended 4 day forecast. The
@@ -294,117 +279,82 @@
               information to the user.
               <strong> <i>Made with HTML, CSS, JavaScript. </i></strong>
             </p>
-            <a
-              href="https://harryminnie6.github.io/Weather-app/."
-              class="project-link"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/Weather-app"
-              class="github-link"
-              >Repo</a
-            >
-          </div>
-        </div>
-        <!-- <h2 class="h2-projects-section">Some of my projects</h2> -->
-        <p class="p-projects-section wp_misc-header" data-aos="flip-left">
-          WordPress projects
-        </p>
-
-        <div class="projects-holder">
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage2">
-              <img
-                class="project-img"
-                src="images/project-images/knowledge-uni.png"
-                alt="K.U screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
-              />
+            <div class="button-links">
+              <a
+                href="https://github.com/HarryMinnie6/Weather-app"
+                class="github-link buttons"
+                >Repo</a
+              >
+              <a
+                href="https://harryminnie6.github.io/Weather-app/."
+                class="project-link buttons"
+                >Demo</a
+              >
             </div>
-            <h3 class="project-header2">Knowledge-University</h3>
-            <p class="project-description2">
-              This is a custom theme for WordPress coded by myself using
-              <strong> <i>PHP, CSS, and JavaScript. </i></strong>
-              (More sites available on request)
-            </p>
-            <a
-              href="https://knowledge-university.cloudaccess.host/"
-              class="project-link2"
-              >Demo</a
-            >
           </div>
         </div>
+      </section>
 
-        <p class="p-projects-section wp_misc-header" data-aos="flip-right">
-          Miscellaneous projects
-        </p>
+      <section class="projects-section" id="projects">
+        <h2 class="misc-header">Miscellaneous projects</h2>
         <div class="projects-holder">
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage">
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header">Todo-list</h3>
+            </div>
+
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/todo.png"
-                alt="Todo-List screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header">Todo-list</h3>
             <p class="project-description">
               A Todo-list that stores items in the local storage. Items can be
               marked as complete and deleted, once they are added to the
               Todo-List. The Todo-list was
               <strong> <i>made with HTML, CSS, JavaScript. </i></strong>
             </p>
-            <a
-              href="https://harryminnie6.github.io/Todo-List/"
-              class="project-link"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/HarryMinnie6/Todo-List"
-              class="github-link"
-              >Repo</a
-            >
+            <div class="button-links">
+              <a href="https://github.com/HarryMinnie6/Todo-List">Repo</a>
+              <a href="https://harryminnie6.github.io/Todo-List/">Demo</a>
+            </div>
           </div>
-          <div
-            class="project"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <div class="backgroundImage2">
+
+          <div class="project">
+            <div class="header-wrapper">
+              <h3 class="project-header project-3">Calculator</h3>
+            </div>
+
+            <div class="image-holder">
               <img
-                class="project-img"
+                class="project-image"
                 src="images/project-images/calculator.png"
-                alt="Calculator screen-shot"
-                data-tilt
-                data-tilt-max="12"
-                data-tilt-speed="500"
-                data-tilt-perspective="10000"
+                alt="image"
               />
             </div>
-            <h3 class="project-header2">Calculator</h3>
-            <p class="project-description2">
+            <p class="project-description">
               A basic calculator
               <strong> <i>made with HTML, CSS, JavaScript. </i></strong>
             </p>
-            <a href="#" class="project-link2">Demo</a>
-            <a href="#" class="github-link2">Repo</a>
+            <div class="button-links">
+              <a
+                href="https://github.com/HarryMinnie6/Calculator"
+                class="github-link buttons"
+                >Repo</a
+              >
+              <a
+                href="https://harryminnie6.github.io/Calculator/."
+                class="project-link buttons"
+                >Demo</a
+              >
+            </div>
           </div>
         </div>
+        <p class="wp-request">
+          <i>Two WordPress projects available on request</i>
+        </p>
       </section>
 
       <section class="contact-section" id="contact">
