@@ -379,7 +379,7 @@ form {
 }
 .project {
   width: 350px;
-  height: 520px;
+  height: 550px;
 
   display: flex;
   flex-direction: column;
@@ -415,17 +415,20 @@ form {
   align-items: center;
   position: absolute;
   top: 50px;
+  width:100%;
+  /* padding: 5px; */
+  /* object-fit: contain; */
 }
 .project-image {
   justify-self: center;
   align-self: center;
-  object-fit: contain;
+  /* object-fit: contain; */
   width: 100%;
 }
 .project-description {
   font-family: "Roboto", sans-serif;
   position: absolute;
-  top: 240px;
+  top: 290px;
   text-align: center;
   justify-self: center;
   margin: 15px 0 20px 0;
