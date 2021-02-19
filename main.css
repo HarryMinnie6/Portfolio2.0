@@ -939,17 +939,7 @@ footer {
       font-size: 14px;
       top: 250px;
     }
-    .project-description {
-      /* font-family: "Roboto", sans-serif;
-      position: absolute;
-      
-      text-align: center;
-      justify-self: center;
-      margin: 15px 0 20px 0;
-      padding: 0 15px;
-      width: 90%;
-      line-height: 24px; */
-    }
+  
     .project {
       height: 535px;
     }
