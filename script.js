@@ -1,4 +1,7 @@
 console.log("ggg");
+//redirecting to new portfolio
+window.location.replace("https://harryminnie6.github.io/Portfolio/");
+
 
 const hamburgerButton = document.querySelector('.hamburger-button')
 const navbarLinks = document.querySelector('.nav-links')
